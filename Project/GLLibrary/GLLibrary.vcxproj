@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLLibrary\CCamera.cpp" />
+    <ClCompile Include="GLLibrary\CCollision.cpp" />
+    <ClCompile Include="GLLibrary\CFont.cpp" />
+    <ClCompile Include="GLLibrary\CFPS.cpp" />
+    <ClCompile Include="GLLibrary\CImage.cpp" />
+    <ClCompile Include="GLLibrary\CInput.cpp" />
+    <ClCompile Include="GLLibrary\CLight.cpp" />
+    <ClCompile Include="GLLibrary\CMultiThread.cpp" />
+    <ClCompile Include="GLLibrary\CMatrix.cpp" />
+    <ClCompile Include="GLLibrary\CModel.cpp" />
+    <ClCompile Include="GLLibrary\CModelA3M.cpp" />
+    <ClCompile Include="GLLibrary\CModelField.cpp" />
+    <ClCompile Include="GLLibrary\CModelObj.cpp" />
+    <ClCompile Include="GLLibrary\CNetWork.cpp" />
+    <ClCompile Include="GLLibrary\CPhysX.cpp" />
+    <ClCompile Include="GLLibrary\CRect.cpp" />
+    <ClCompile Include="GLLibrary\CRendaring.cpp" />
+    <ClCompile Include="GLLibrary\CResource.cpp" />
+    <ClCompile Include="GLLibrary\CShader.cpp" />
+    <ClCompile Include="GLLibrary\CShadow.cpp" />
+    <ClCompile Include="GLLibrary\CSound.cpp" />
+    <ClCompile Include="GLLibrary\CTexture.cpp" />
+    <ClCompile Include="GLLibrary\CTextureFrame.cpp" />
+    <ClCompile Include="GLLibrary\CVector.cpp" />
+    <ClCompile Include="GLLibrary\CVideo.cpp" />
+    <ClCompile Include="GLLibrary\GL.cpp" />
+    <ClCompile Include="GLLibrary\Utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLLibrary.h" />
+    <ClInclude Include="GLLibrary\CCamera.h" />
+    <ClInclude Include="GLLibrary\CCollision.h" />
+    <ClInclude Include="GLLibrary\CFont.h" />
+    <ClInclude Include="GLLibrary\CFPS.h" />
+    <ClInclude Include="GLLibrary\CImage.h" />
+    <ClInclude Include="GLLibrary\CInput.h" />
+    <ClInclude Include="GLLibrary\CLight.h" />
+    <ClInclude Include="GLLibrary\CMultiThread.h" />
+    <ClInclude Include="GLLibrary\CMatrix.h" />
+    <ClInclude Include="GLLibrary\CModel.h" />
+    <ClInclude Include="GLLibrary\CModelA3M.h" />
+    <ClInclude Include="GLLibrary\CModelField.h" />
+    <ClInclude Include="GLLibrary\CModelObj.h" />
+    <ClInclude Include="GLLibrary\CNetWork.h" />
+    <ClInclude Include="GLLibrary\CPhysX.h" />
+    <ClInclude Include="GLLibrary\CRect.h" />
+    <ClInclude Include="GLLibrary\CRendaring.h" />
+    <ClInclude Include="GLLibrary\CResource.h" />
+    <ClInclude Include="GLLibrary\CShader.h" />
+    <ClInclude Include="GLLibrary\CShadow.h" />
+    <ClInclude Include="GLLibrary\CSound.h" />
+    <ClInclude Include="GLLibrary\CTexture.h" />
+    <ClInclude Include="GLLibrary\CTextureFrame.h" />
+    <ClInclude Include="GLLibrary\CVector.h" />
+    <ClInclude Include="GLLibrary\CVideo.h" />
+    <ClInclude Include="GLLibrary\GL.h" />
+    <ClInclude Include="GLLibrary\Utility.h" />
+    <ClInclude Include="GLLibrary\Vertex.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F89696BE-A93C-43A6-92CE-A497B9308791}</ProjectGuid>
+    <RootNamespace>GLLibrary</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetExt>.lib</TargetExt>
+    <OutDir>$(SolutionDir)lib\x64\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetExt>.lib</TargetExt>
+    <OutDir>$(SolutionDir)lib\x64\$(Configuration)</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;GLFW.lib;glew.lib;glpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib/x64/$(Configuration)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;GLFW.lib;glew.lib;glpng.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib/x64/$(Configuration)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

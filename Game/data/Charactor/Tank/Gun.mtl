@@ -1,0 +1,16 @@
+# Created by Metasequoia
+
+newmtl tank1.007
+Ka 0.38400 0.38400 0.38400
+Kd 0.51200 0.51200 0.51200
+Ks 0.30000 0.30000 0.30000
+Ns 5.00000
+map_Kd tiger_tank\tank1.png
+
+newmtl tank2.007
+Ka 0.38400 0.38400 0.38400
+Kd 0.51200 0.51200 0.51200
+Ks 0.30000 0.30000 0.30000
+Ns 5.00000
+map_Kd tiger_tank\tank2.png
+

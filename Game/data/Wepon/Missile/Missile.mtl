@@ -1,0 +1,9 @@
+# Created by Metasequoia
+
+newmtl Material.006
+Ka 0.38400 0.38400 0.38400
+Kd 0.51200 0.51200 0.51200
+Ks 0.10000 0.10000 0.10000
+Ns 5.00000
+map_Kd Missile\texture.png
+

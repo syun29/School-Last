@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GLLibrary">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLLibrary\CCamera.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CCollision.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CFont.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CFPS.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CImage.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CInput.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CLight.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CMultiThread.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CMatrix.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CModel.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CModelA3M.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CModelField.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CModelObj.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CNetWork.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CResource.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CShader.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CShadow.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CSound.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CTexture.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CVector.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\GL.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\Utility.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CRect.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CTextureFrame.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CVideo.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CRendaring.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="GLLibrary\CPhysX.cpp">
+      <Filter>GLLibrary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLLibrary\CCamera.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CCollision.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CFont.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CFPS.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CImage.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CInput.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CLight.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CMultiThread.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CMatrix.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CModel.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CModelA3M.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CModelField.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CModelObj.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CNetWork.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CRect.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CResource.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CShader.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CShadow.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CSound.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CTexture.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CVector.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\GL.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\Utility.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\Vertex.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary.h" />
+    <ClInclude Include="GLLibrary\CTextureFrame.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CVideo.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CRendaring.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GLLibrary\CPhysX.h">
+      <Filter>GLLibrary</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

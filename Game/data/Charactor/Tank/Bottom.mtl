@@ -1,0 +1,44 @@
+# Created by Metasequoia
+
+newmtl Rubber.002
+Ka 0.38400 0.38400 0.38400
+Kd 0.51200 0.51200 0.51200
+Ks 0.30000 0.30000 0.30000
+Ns 5.00000
+map_Kd tiger_tank\Rubber.png
+
+newmtl Tank3.006
+Ka 0.38400 0.38400 0.38400
+Kd 0.51200 0.51200 0.51200
+Ks 0.30000 0.30000 0.30000
+Ns 5.00000
+map_Kd tiger_tank\Tank3.png
+
+newmtl tank1.006
+Ka 0.38400 0.38400 0.38400
+Kd 0.51200 0.51200 0.51200
+Ks 0.30000 0.30000 0.30000
+Ns 5.00000
+map_Kd tiger_tank\tank1.png
+
+newmtl tank2.006
+Ka 0.38400 0.38400 0.38400
+Kd 0.51200 0.51200 0.51200
+Ks 0.30000 0.30000 0.30000
+Ns 5.00000
+map_Kd tiger_tank\tank2.png
+
+newmtl tank2_0.002
+Ka 0.38400 0.38400 0.38400
+Kd 0.51200 0.51200 0.51200
+Ks 0.30000 0.30000 0.30000
+Ns 5.00000
+map_Kd tiger_tank\tank2_0.png
+
+newmtl tank4.003
+Ka 0.38400 0.38400 0.38400
+Kd 0.51200 0.51200 0.51200
+Ks 0.30000 0.30000 0.30000
+Ns 5.00000
+map_Kd tiger_tank\tank4.png
+
